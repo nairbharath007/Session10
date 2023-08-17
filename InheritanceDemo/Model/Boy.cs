@@ -8,6 +8,10 @@ namespace InheritanceDemo.Model
 {
     internal class Boy:Man
     {
+        public void Play()
+        {
+            Console.WriteLine(" Boy Plays");
+        }
         public void Eat()
         {
             Console.WriteLine(" Boy Eats");
