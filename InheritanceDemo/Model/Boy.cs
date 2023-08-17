@@ -8,6 +8,14 @@ namespace InheritanceDemo.Model
 {
     internal class Boy:Man
     {
+        public Boy() 
+        {
+            Console.WriteLine("Default Constructor of Boy");
+        }
+        public Boy(int age)
+        {
+            Console.WriteLine("Parameterized Constructor of Boy");
+        }
         public override void Play()
         {
             Console.Write(" Boy Plays");
