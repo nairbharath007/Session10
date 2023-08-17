@@ -10,7 +10,7 @@ namespace InheritanceDemo.Model
     {
         public virtual void Play()
         {
-            Console.WriteLine(" Man Plays");
+            Console.Write(" Man Plays");
         }
         public void Work()
         {

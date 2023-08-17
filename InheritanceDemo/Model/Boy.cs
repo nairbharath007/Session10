@@ -10,7 +10,7 @@ namespace InheritanceDemo.Model
     {
         public override void Play()
         {
-            Console.WriteLine(" Boy Plays");
+            Console.Write(" Boy Plays");
         }
         public void Eat()
         {
