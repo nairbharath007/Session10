@@ -25,6 +25,14 @@ namespace InheritanceDemo
             toddler.Sleep();
             Console.WriteLine("------------------------------------");
 
+            Man man1 = new Boy();
+            man1.Play();  //Play() of child and not of parent
+            //man1.Eat(); //exclusive to child not known to parent
+
+            Boy boy1 = (Boy)man1;
+            boy1.Eat();
+            ((Boy)man1).Eat();
+
         }
     }
 }

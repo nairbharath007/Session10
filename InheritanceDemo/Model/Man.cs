@@ -8,7 +8,7 @@ namespace InheritanceDemo.Model
 {
     internal class Man
     {
-        public void Play()
+        public virtual void Play()
         {
             Console.WriteLine(" Man Plays");
         }

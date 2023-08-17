@@ -8,7 +8,7 @@ namespace InheritanceDemo.Model
 {
     internal class Toddler:Man
     {
-        public void Play()
+        public override void Play()
         {
             Console.WriteLine(" Toddler Plays");
         }
