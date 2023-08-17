@@ -15,8 +15,10 @@ namespace InheritanceDemo
             AtThePark(new Boy());
             AtThePark(new Toddler());*/
 
-            Man man = new Man(50);
-            Boy boy = new Boy(10);
+            Man man = new Man(50); //para ctor of man
+            Boy boy = new Boy(10); //def ctor of man --> para ctor of boy
+            //if no def ctor of man, then comp error
+            //as there is para ctor present in parent class(man)
 
 
         }
